@@ -1,7 +1,6 @@
-void main(){
-  greetNewUser()
-}
-
-void greetNewUser(String? name, int? age, bool? isVerified){
-  
+void main() {
+  List stringList = ['hello', 'salam', 'kenal'];
+  stringList.add('Gaul');
+  // stringList.remove('hello');
+  stringList.forEach((s) => print(s));
 }
