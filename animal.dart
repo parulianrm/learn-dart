@@ -1,7 +1,7 @@
 void main() {
   var kucingGaul = Animal('Macan', 2, 17.0);
-
-  print(kucingGaul.weight);
+  kucingGaul.eat();
+  print('berat ${kucingGaul.name} adalah ${kucingGaul.weight} ');
 }
 
 class Animal {

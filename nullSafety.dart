@@ -1,14 +1,14 @@
 import 'dart:io';
 
 void main() {
-  stdout.write('Sebutkan makanan favorite anda : ');
+  stdout.write('Tebak kita mau makan apa hari ini? ');
   String? makananFavorite = (stdin.readLineSync()!);
   beliMakan(makananFavorite);
 }
 
 void beliMakan(String? makananFavorite) {
   var beliApa = makananFavorite != "Tempe Goreng"
-      ? 'Gamau Makan kalau bukan tempe'
-      : '$makananFavorite';
+      ? 'Salah dongo!'
+      : 'benar! kita akan makan $makananFavorite';
   print('$beliApa');
 }
